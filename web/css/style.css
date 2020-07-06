@@ -1,0 +1,36 @@
+body{
+    background-color: orange;;
+}
+
+
+#B div}
+/* Element Selector */
+div{
+    border-color: black;
+    border-style: solid;
+}
+
+/* id selector */
+
+#A{
+    padding:20px;
+    margin-bottom: 5px;
+}
+
+/* Class Selector */
+.companyPadding{
+    padding:10px;
+    border-style:dashed;
+}
+
+.companyStyle{
+    background-color:#B5C9C345;
+    border-style:dotted;
+}
+.companyPosition{
+    position: fixed;
+    bottom:0px;
+    height:200px;
+    width: 100%;
+    background-color:red;
+}

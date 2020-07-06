@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Modak&family=Montserrat:ital,wght@0,100;0,900;1,700&display=swap" rel="stylesheet">
+    </link>
+    <style>
+        body {
+            font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .flex-container {
+            display: flex;
+            height: 300px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: center;
+            background-color: DodgerBlue;
+        }
+
+        .flex-container>div {
+            background-color: #f1f1f1;
+            width: 20px;
+            margin: 1px;
+            padding: 0px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+
+        .card {
+            width: 200px;
+            box-shadow: 10px 14px 42px 0px rgba(0, 0, 0, 0.75);
+            border-radius:4px;
+        }
+
+       .card img{
+           width:200px;
+           border-top-right-radius: 5px;
+           border-top-left-radius: 5px;
+       }
+
+        .subtitle {
+            position: relative;
+            top: -20px;
+            color: grey;
+
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .content h1 {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .rating {
+            position: relative;
+            top: 38px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/48fcca95-c468-4a3d-bd48-d2240ec65a05/Derivates/3871b6f6-b560-40f9-af63-104d91e10db3.jpg"/>
+
+        </div>
+        <div class="content">
+
+            <div class="header">
+                <h1>Pizza</h1>
+                <p class="subtitle">Fresh & tasty</p>
+            </div>
+            <div class="rating">
+
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
